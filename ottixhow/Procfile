@@ -1,0 +1,1 @@
+web: gunicorn ottixhow.seller_dashboard.wsgi:seller_dashboard --workers=4
